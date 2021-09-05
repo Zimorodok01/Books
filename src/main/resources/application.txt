@@ -1,0 +1,10 @@
+spring.datasource.url: jdbc:postgresql://localhost:5432/technaxis
+spring.datasource.username:
+spring.datasource.password:
+spring.jpa.hibernate.ddl-auto: update
+spring.jpa.properties.hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.properties.hibernate.format_sql: true
+spring.jpa.show-sql: false
+
+server.port = 8081
+server.error.include-message=always
